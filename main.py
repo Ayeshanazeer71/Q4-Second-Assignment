@@ -13,6 +13,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 # --- CORS Middleware ---
 # Allows the frontend to communicate with this backend
 origins = [
+    "https://q4-second-assignment-1v75.vercel.app/",
     "http://localhost",
     "http://localhost:8080",
     "http://127.0.0.1:5500", # Common for Live Server
